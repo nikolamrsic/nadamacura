@@ -33,7 +33,7 @@ export default function Home() {
             whileHover={{ color: "#12a4c3", cursor: "pointer" }}
             className="md:text-5xl xxl:text-8xl  text-3xl text-white"
           >
-            Lorem Ipsum has <br /> been the Industry's.{" "}
+            Lorem Ipsum has <br /> been the Industry&apos;s.
             <span className="w-2  h-[10px] ml-3  p-[2px]  bg-main-ciyan"></span>
           </motion.h1>
 
@@ -367,7 +367,7 @@ export default function Home() {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               initial={{ opacity: 0 }}
-              transition={{ delay: 0.97 }}
+              
               whileHover={{ scale: 1.2 }}
               transition={{ delay: 0.975, scale: { delay: 0 } }}
               className=" col-span-2 md:col-span-1 bg-main drop-shadow-xl p-4 hover:drop-shadow-2xl"
@@ -430,8 +430,8 @@ export default function Home() {
         <div className=" mx-auto  border-t-main-ciyan border-transparent border-b-main-ciyan backdrop-blur-xl  border backdrop-brightness-100  hover:bg-black/5 transition-all relative z-50  w-8/12 md:w-8/12 lg:w-6/12 bg-main-ciyan text-white  py-12 px-8">
         
           <h1 className=" relative  z-50 text-xl md:text-2xl italic text-center selection:bg-main-ciyan selection:text-black">
-            "Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's" -Jack Wlech
+          &apos;Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry&apos;s&apos; -Jack Wlech
           </h1>
         </div>
 
