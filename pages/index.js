@@ -408,9 +408,9 @@ export default function Home() {
               borderColor: "#12a4c3",
               cursor: "pointer",
             }}
-            className="py-4 mt-16 px-12 w-full md:w-fit border border-transparent bg-main-ciyan text-white "
+            className="py-4 mt-16  px-12 w-11/12 mx-auto md:w-fit border border-transparent bg-main-ciyan text-white "
           >
-            All services
+            All servicese
           </motion.button>
       </section>
 

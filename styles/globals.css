@@ -26,3 +26,8 @@ body{
     filter: drop-shadow(-20px 30px 136px rgba(18, 164, 195, 0.42));
     
 }
+
+*:selection{
+    background-color: #12a4c3;
+    color:black;
+}
