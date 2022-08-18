@@ -427,7 +427,7 @@ export default function Home() {
 
 <img className='absolute z-[0] pointer-events-none scale-[0.8] -top-[25%]  md:-top-[50%] left-0' src="/trofej.png"/>
 
-        <div className=" mx-auto  border-t-main-ciyan border-transparent border-b-main-ciyan backdrop-blur-xl  border backdrop-brightness-100  hover:bg-black/5 transition-all relative z-50  w-8/12 md:w-8/12 lg:w-6/12 bg-main-ciyan text-white  py-12 px-8">
+        <div className=" mx-auto  border-t-main-ciyan border-transparent border-b-main-ciyan backdrop-blur-xl  border backdrop-brightness-100  hover:bg-black/5 transition-all relative z-50  w-11/12 md:w-8/12 lg:w-6/12 bg-main-ciyan text-white  py-12 px-8">
         
           <h1 className=" relative  z-50 text-xl md:text-2xl italic text-center selection:bg-main-ciyan selection:text-black">
           &apos;Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -494,9 +494,9 @@ export default function Home() {
               borderColor: "#12a4c3",
               cursor: "pointer",
             }}
-            className="py-4 mt-5 px-12 w-full md:w-fit border border-transparent bg-main-ciyan text-white "
+            className="py-4 mt-24 px-12 w-full md:w-fit border border-transparent bg-main-ciyan text-white "
           >
-            All services
+            All References
           </motion.button>
           </div>
 
