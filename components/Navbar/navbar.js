@@ -41,7 +41,7 @@ export default function Navbar() {
 
 
                         <ul className="lg:flex hidden gap-5 ">
-                            <li ><Link href='/' passHref><a className={router.asPath == '/' ? linksStyle.active : linksStyle.nonActive} >Homepage</a></Link></li>
+                            <li><Link href='/' passHref><a className={router.asPath == '/' ? linksStyle.active : linksStyle.nonActive} >Homepage</a></Link></li>
                             <li><Link href='/about' passHref><a className={router.asPath == '/about' ? linksStyle.active : linksStyle.nonActive}>About</a></Link></li>
                             <li><Link href='/services' passHref><a className={router.asPath == '/services' ? linksStyle.active : linksStyle.nonActive}>Services</a></Link></li>
                             <li><Link href='/references' passHref><a className={router.asPath == '/references' ? linksStyle.active : linksStyle.nonActive}>References</a></Link></li>
@@ -62,7 +62,7 @@ export default function Navbar() {
                         <div className="lg:hidden fixed z-[9999] left-0 top-0 bg-black/50 backdrop-blur-xl w-full h-screen">
 
                             <button onClick={toggleMenuLinks} className="right-6 top-6 absolute"><svg className="w-8 h-8 pointer-events-none fill-white" width="" height="" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.68629 4.68629C10.9347 -1.5621 21.0653 -1.5621 27.3137 4.68629L128 105.373L228.686 4.68629C234.935 -1.5621 245.065 -1.5621 251.314 4.68629C257.562 10.9347 257.562 21.0653 251.314 27.3137L150.627 128L251.314 228.686C257.562 234.935 257.562 245.065 251.314 251.314C245.065 257.562 234.935 257.562 228.686 251.314L128 150.627L27.3137 251.314C21.0653 257.562 10.9347 257.562 4.68629 251.314C-1.5621 245.065 -1.5621 234.935 4.68629 228.686L105.373 128L4.68629 27.3137C-1.5621 21.0653 -1.5621 10.9347 4.68629 4.68629Z" fill="" />
+                                <path fillRule="evenodd" clipRule="evenodd" d="M4.68629 4.68629C10.9347 -1.5621 21.0653 -1.5621 27.3137 4.68629L128 105.373L228.686 4.68629C234.935 -1.5621 245.065 -1.5621 251.314 4.68629C257.562 10.9347 257.562 21.0653 251.314 27.3137L150.627 128L251.314 228.686C257.562 234.935 257.562 245.065 251.314 251.314C245.065 257.562 234.935 257.562 228.686 251.314L128 150.627L27.3137 251.314C21.0653 257.562 10.9347 257.562 4.68629 251.314C-1.5621 245.065 -1.5621 234.935 4.68629 228.686L105.373 128L4.68629 27.3137C-1.5621 21.0653 -1.5621 10.9347 4.68629 4.68629Z" fill="" />
                             </svg>
                             </button>
 

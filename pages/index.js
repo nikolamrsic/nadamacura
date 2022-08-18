@@ -77,7 +77,7 @@ export default function Home() {
           </h1>
           <p className="text-white/80  md:w-9/12 mx-auto font-thin leading-7">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
             ever since the 1500s
           </p>
         </div>
@@ -474,7 +474,7 @@ export default function Home() {
               <h1 className="text-4xl text-white    hover:text-main-ciyan mb-7">References</h1>
               <p className="text-white font-thin italic mb-5   selection:bg-main-ciyan selection:text-black  hover:text-main-ciyan">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&apos;s standard dummy
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries, but also the leap into
@@ -539,7 +539,7 @@ export default function Home() {
             </h1>
             <p className="text-white font-thin  mb-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry&apos;s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
